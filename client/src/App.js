@@ -12,7 +12,8 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <div id="main">
-        <h1>Reading List</h1>
+        <h1 id="main-heading">Sci-Fi and Fantasy Reading List</h1>
+        <p id="main-paragraph">(in no particular order)</p>
         <BookList />
         <AddBook />
       </div>

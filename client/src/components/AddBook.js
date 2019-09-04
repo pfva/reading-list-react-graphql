@@ -46,6 +46,7 @@ class AddBook extends Component {
   render() {
     return (
       <form id="add-book" onSubmit={this.submitForm}>
+        <h3>Add a new book to the list</h3>
         <div className="field">
           <label>Book name:</label>
           <input
@@ -71,7 +72,7 @@ class AddBook extends Component {
           </select>
         </div>
 
-        <button>+</button>
+        <button id="add-book-button">Add book</button>
       </form>
     );
   }
